@@ -1,5 +1,6 @@
 "use client";
 import About from "@/components/about";
+import Footer from "@/components/footer";
 import Intro from "@/components/intro";
 
 import { DockDemo } from "@/components/magicui/dock-demo";
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
+        <Footer />
       </div>
       <DockDemo />
     </div>
