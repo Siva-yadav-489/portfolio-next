@@ -1,7 +1,6 @@
 import React from "react";
 import Heading from "./heading";
 import { ThreeDCardDemo } from "./ThreeDCardDemo";
-import profilePic from "/public/profile-pic.jpeg";
 import frontend from "/public/frontend/5.png";
 import bookmyshow from "/public/bookmyshow/Screenshot (643).png";
 import proposal from "/public/proposal/Screenshot (642).png";
@@ -55,6 +54,7 @@ const Projects = () => {
       <div className="grid max-[900px]:grid-cols-1 grid-cols-2">
         {projects.map((project, i) => (
           <ThreeDCardDemo
+            key={i}
             title={project.title}
             description={project.description}
             techstack={project.techstack}

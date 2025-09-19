@@ -25,7 +25,6 @@ const Noise: React.FC<NoiseProps> = ({
     if (!ctx) return;
 
     let frame = 0;
-    let animationId: number;
 
     const canvasSize = 1024;
 

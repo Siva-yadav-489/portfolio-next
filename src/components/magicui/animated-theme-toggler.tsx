@@ -6,11 +6,8 @@ import { flushSync } from "react-dom";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
 
-type props = {
-  className?: string;
-};
 
-export const AnimatedThemeToggler = ({ className }: props) => {
+export const AnimatedThemeToggler = () => {
   const buttonRef = useRef<HTMLButtonElement | null>(null);
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
     if (typeof window !== "undefined") {

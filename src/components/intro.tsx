@@ -1,7 +1,5 @@
 import React from "react";
 import { BlurFade } from "./magicui/blur-fade";
-import Image, { StaticImageData } from "next/image";
-import profilePic from "/public/profile-pic.jpeg";
 import Heading from "./heading";
 import TiltedCard from "./TiltedCard";
 
@@ -17,11 +15,6 @@ const Intro = () => {
         </BlurFade>
       </div>
       <BlurFade inView>
-        {/* <Image
-          src={profilePic}
-          alt="profic-img"
-          className="w-32 rounded-full object-cover object-center"
-        /> */}
         <TiltedCard
           imageSrc={"/profile-pic.jpeg"}
           altText="me"
