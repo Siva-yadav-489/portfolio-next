@@ -82,7 +82,7 @@ const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1G5Dch9GUMcUC6A7z3C5UQnuvPv4HXcrN/view",
+        url: "https://drive.google.com/file/d/1fWODUWvnsrNO1zyXFiwcwX_BrUFup9us/view?usp=sharing",
         icon: Icons.resume,
       },
       Email: {
